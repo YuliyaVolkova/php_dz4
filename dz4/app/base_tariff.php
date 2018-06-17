@@ -9,8 +9,8 @@ class BaseTariff extends Tariff
     use Gps;
     protected $priceDistance = 10;  // рублей за км
     protected $priceTime = 3;   //  рубля за минуту
-    protected $distance = 0;
-    protected $time = 0;
+    public $distance = 0;
+    public $time = 0;
 
     /**
      * BaseTariff constructor.

@@ -9,8 +9,8 @@ class StudentsTariff extends Tariff
     use Gps;
     protected $priceDistance = 4;  // рубля за км
     protected $priceTime = 1;   //  рубль за минуту
-    protected $distance = 0;
-    protected $time = 0;
+    public $distance = 0;
+    public $time = 0;
 
     /**
      * StudentsTariff constructor.

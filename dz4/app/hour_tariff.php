@@ -9,8 +9,8 @@ class HourTariff extends Tariff
 {
     use Gps, DriverPlus;
     protected $priceHour = 200;   //  рублей за 60 минут
-    protected $timeMinutes = 0;
     protected $timeHours = 0;
+    public $timeMinutes = 0;
 
     /**
      * HourTariff constructor.

@@ -10,9 +10,9 @@ class Hours24Tariff extends Tariff
     use Gps, DriverPlus;
     protected $priceDistance = 1;  // рублей за км
     protected $price24hours = 1000;   //  рублей за 24 часа
-    protected $timeMinutes = 0;
     protected $countDays = 0;
-    protected $distance = 0;
+    public $timeMinutes = 0;
+    public $distance = 0;
 
     /**
      * Hours24Tariff constructor.
