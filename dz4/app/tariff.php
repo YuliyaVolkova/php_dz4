@@ -13,7 +13,7 @@ abstract class Tariff implements TariffPlan
 
     protected function testAge($age)
     {
-        return ($age < $this::MIN_AGE || $age > $this::MAX_AGE) ? false : true;
+        return ($age >= self::MIN_AGE && $age <= self::MAX_AGE);
     }
 
     protected function setAgeKoef($age)
